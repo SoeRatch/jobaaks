@@ -16,7 +16,7 @@ import CardAvatar from "../../components/Card/CardAvatar";
 import CustomInput from "../../components/CustomInput/CustomInput";
 import Button from "../../components/CustomButtons/Button";
 
-import avatar from "../../assets/img/faces/marc.jpg";
+import avatar from "../../assets/img/faces/myimage.jpg";
 
 const style={
 	cardCategoryWhite: {
@@ -142,7 +142,7 @@ class UserProfile extends React.Component{
 					                <GridItem xs={12} sm={12} md={12}>
 					                  <InputLabel style={{ color: "#AAAAAA" }}>About me</InputLabel>
 					                  <CustomInput
-					                    labelText="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
+					                    labelText="An	enthusiastic	team	player	with	a	zest	for	technology	and	an	outgoing	attitude,	bringing	innovative	ideas	and	a	strong		product	oriented"
 					                    id="about-me"
 					                    formControlProps={{
 					                      fullWidth: true
@@ -172,12 +172,13 @@ class UserProfile extends React.Component{
 			              </a>
 			            </CardAvatar>
 			            <CardBody profile>
-			              <h6 className={classes.cardCategory}>CEO / CO-FOUNDER</h6>
-			              <h4 className={classes.cardTitle}>Alec Thompson</h4>
+			              <h5 className={classes.cardCategory}>JAVASCRIPT NINJA</h5>
+			              <h3 className={classes.cardTitle}>Suraj Sharma</h3>
 			              <p className={classes.description}>
+			              	Innovation is the key to nothing but just a satisfaction to see something which was 
+			              	happening beacause of a decision taken to put all those questions in head to sleep.
 			                Don't be scared of the truth because we need to restart the
-			                human foundation in truth And I love you like Kanye loves Kanye
-			                I love Rick Owens’ bed design but the back is...
+			                human foundation in truth And I love you like Kanye loves Kanye ...
 			              </p>
 			              <Button color="primary" round>
 			                Follow
