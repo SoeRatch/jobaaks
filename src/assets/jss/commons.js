@@ -63,6 +63,32 @@ const infoColor = "#00acc1";
 const roseColor = "#e91e63";
 const grayColor = "#999999";
 
+
+const warningCardHeader = {
+  background: "linear-gradient(60deg, #ffa726, #fb8c00)",
+  ...warningBoxShadow
+};
+const successCardHeader = {
+  background: "linear-gradient(60deg, #66bb6a, #43a047)",
+  ...successBoxShadow
+};
+const dangerCardHeader = {
+  background: "linear-gradient(60deg, #ef5350, #e53935)",
+  ...dangerBoxShadow
+};
+const infoCardHeader = {
+  background: "linear-gradient(60deg, #26c6da, #00acc1)",
+  ...infoBoxShadow
+};
+const primaryCardHeader = {
+  background: "linear-gradient(60deg, #ab47bc, #8e24aa)",
+  ...primaryBoxShadow
+};
+const roseCardHeader = {
+  background: "linear-gradient(60deg, #ec407a, #d81b60)",
+  ...roseBoxShadow
+};
+
 export {
 	drawerWidth,
 	boxShadow,
@@ -82,6 +108,12 @@ export {
 	successColor,
 	infoColor,
 	roseColor,
-	grayColor
+	grayColor,
+	warningCardHeader,
+    successCardHeader,
+    dangerCardHeader,
+    infoCardHeader,
+    primaryCardHeader,
+    roseCardHeader	
 };
 
