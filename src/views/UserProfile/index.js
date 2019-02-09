@@ -176,7 +176,7 @@ class UserProfile extends React.Component{
 			              <h3 className={classes.cardTitle}>Suraj Sharma</h3>
 			              <p className={classes.description}>
 			              	Innovation is the key to nothing but just a satisfaction to see something which was 
-			              	happening beacause of a decision taken to put all those questions in head to sleep.
+			              	happening because of a decision taken to put all those questions in head to sleep.
 			                Don't be scared of the truth because we need to restart the
 			                human foundation in truth And I love you like Kanye loves Kanye ...
 			              </p>
