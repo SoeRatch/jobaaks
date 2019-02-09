@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A product for the job seekers",
   "scripts": {
-    "dev": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --hot",
     "build": "webpack --mode=development"
   },
   "author": "",
